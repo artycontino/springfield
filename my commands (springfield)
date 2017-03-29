@@ -1,0 +1,203 @@
+arthurs-MacBook-Pro:~ arthurcontino$ mkdir springfiekd
+arthurs-MacBook-Pro:~ arthurcontino$ rm -r springfiekd
+arthurs-MacBook-Pro:~ arthurcontino$ ls
+Applications		Music			ga
+Desktop			Pictures		homework
+Documents		Public			hypatia-students
+Downloads		README.md		labs
+Library			artycontino.github.io-	mywebsite
+Movies			documentds
+arthurs-MacBook-Pro:~ arthurcontino$ mkdir springfield
+arthurs-MacBook-Pro:~ arthurcontino$ touch homer.txt
+arthurs-MacBook-Pro:~ arthurcontino$ touch marge.txt
+arthurs-MacBook-Pro:~ arthurcontino$ touch bart.txt
+arthurs-MacBook-Pro:~ arthurcontino$ touch lisa.txt
+arthurs-MacBook-Pro:~ arthurcontino$ touch maggie.txt
+arthurs-MacBook-Pro:~ arthurcontino$ mkdir school
+arthurs-MacBook-Pro:~ arthurcontino$ mv bart.txt school
+arthurs-MacBook-Pro:~ arthurcontino$ ls
+Applications		Public			labs
+Desktop			README.md		lisa.txt
+Documents		artycontino.github.io-	maggie.txt
+Downloads		documentds		marge.txt
+Library			ga			mywebsite
+Movies			homer.txt		school
+Music			homework		springfield
+Pictures		hypatia-students
+arthurs-MacBook-Pro:~ arthurcontino$ mv school sprinfield
+arthurs-MacBook-Pro:~ arthurcontino$ ls
+Applications		Public			labs
+Desktop			README.md		lisa.txt
+Documents		artycontino.github.io-	maggie.txt
+Downloads		documentds		marge.txt
+Library			ga			mywebsite
+Movies			homer.txt		sprinfield
+Music			homework		springfield
+Pictures		hypatia-students
+arthurs-MacBook-Pro:~ arthurcontino$ rm -r sprinfield
+arthurs-MacBook-Pro:~ arthurcontino$ ls
+Applications		Public			labs
+Desktop			README.md		lisa.txt
+Documents		artycontino.github.io-	maggie.txt
+Downloads		documentds		marge.txt
+Library			ga			mywebsite
+Movies			homer.txt		springfield
+Music			homework
+Pictures		hypatia-students
+arthurs-MacBook-Pro:~ arthurcontino$ mk dir power-plant
+-bash: mk: command not found
+arthurs-MacBook-Pro:~ arthurcontino$ mkdir power-plant 
+arthurs-MacBook-Pro:~ arthurcontino$ mv homer.txt power-plant
+arthurs-MacBook-Pro:~ arthurcontino$ ls
+Applications		Public			lisa.txt
+Desktop			README.md		maggie.txt
+Documents		artycontino.github.io-	marge.txt
+Downloads		documentds		mywebsite
+Library			ga			power-plant
+Movies			homework		springfield
+Music			hypatia-students
+Pictures		labs
+arthurs-MacBook-Pro:~ arthurcontino$ mv power-plant springfield 
+arthurs-MacBook-Pro:~ arthurcontino$ ls
+Applications		Pictures		hypatia-students
+Desktop			Public			labs
+Documents		README.md		lisa.txt
+Downloads		artycontino.github.io-	maggie.txt
+Library			documentds		marge.txt
+Movies			ga			mywebsite
+Music			homework		springfield
+arthurs-MacBook-Pro:~ arthurcontino$ mkdir market
+arthurs-MacBook-Pro:~ arthurcontino$ mv marge.txt market
+arthurs-MacBook-Pro:~ arthurcontino$ ls
+Applications		Pictures		hypatia-students
+Desktop			Public			labs
+Documents		README.md		lisa.txt
+Downloads		artycontino.github.io-	maggie.txt
+Library			documentds		market
+Movies			ga			mywebsite
+Music			homework		springfield
+arthurs-MacBook-Pro:~ arthurcontino$ move maggie.txt market
+-bash: move: command not found
+arthurs-MacBook-Pro:~ arthurcontino$ mv maggie.txt market
+arthurs-MacBook-Pro:~ arthurcontino$ mv market springfield
+arthurs-MacBook-Pro:~ arthurcontino$ ls
+Applications		Pictures		hypatia-students
+Desktop			Public			labs
+Documents		README.md		lisa.txt
+Downloads		artycontino.github.io-	mywebsite
+Library			documentds		springfield
+Movies			ga
+Music			homework
+arthurs-MacBook-Pro:~ arthurcontino$ mkdir band-room
+arthurs-MacBook-Pro:~ arthurcontino$ mv list.txt band-room
+mv: rename list.txt to band-room/list.txt: No such file or directory
+arthurs-MacBook-Pro:~ arthurcontino$ mv lisa.txt band-room
+arthurs-MacBook-Pro:~ arthurcontino$ ls
+Applications		Pictures		homework
+Desktop			Public			hypatia-students
+Documents		README.md		labs
+Downloads		artycontino.github.io-	mywebsite
+Library			band-room		springfield
+Movies			documentds
+Music			ga
+arthurs-MacBook-Pro:~ arthurcontino$ cd springfield
+arthurs-MacBook-Pro:springfield arthurcontino$ ls
+market		power-plant
+arthurs-MacBook-Pro:springfield arthurcontino$ ls
+market		power-plant
+arthurs-MacBook-Pro:springfield arthurcontino$ cd ,,
+-bash: cd: ,,: No such file or directory
+arthurs-MacBook-Pro:springfield arthurcontino$ ..
+-bash: ..: command not found
+arthurs-MacBook-Pro:springfield arthurcontino$ cd ..
+arthurs-MacBook-Pro:~ arthurcontino$ ls
+Applications		Pictures		homework
+Desktop			Public			hypatia-students
+Documents		README.md		labs
+Downloads		artycontino.github.io-	mywebsite
+Library			band-room		springfield
+Movies			documentds
+Music			ga
+arthurs-MacBook-Pro:~ arthurcontino$ mv band-room springfield
+arthurs-MacBook-Pro:~ arthurcontino$ ls
+Applications		Music			ga
+Desktop			Pictures		homework
+Documents		Public			hypatia-students
+Downloads		README.md		labs
+Library			artycontino.github.io-	mywebsite
+Movies			documentds		springfield
+arthurs-MacBook-Pro:~ arthurcontino$ cd springfield
+arthurs-MacBook-Pro:springfield arthurcontino$ ls
+band-room	market		power-plant
+arthurs-MacBook-Pro:springfield arthurcontino$ cd power-plant
+arthurs-MacBook-Pro:power-plant arthurcontino$ ls
+homer.txt
+arthurs-MacBook-Pro:power-plant arthurcontino$ echo -n "dohhh Work Pass"
+dohhh Work Passarthurs-MacBook-Pro:power-plant arthurcontino$ ls
+homer.txt
+arthurs-MacBook-Pro:power-plant arthurcontino$ cd --
+arthurs-MacBook-Pro:~ arthurcontino$ cd springfield
+arthurs-MacBook-Pro:springfield arthurcontino$ ls
+band-room	market		power-plant
+arthurs-MacBook-Pro:springfield arthurcontino$ mkdir home
+arthurs-MacBook-Pro:springfield arthurcontino$ ls
+band-room	home		market		power-plant
+arthurs-MacBook-Pro:springfield arthurcontino$ cd home
+arthurs-MacBook-Pro:home arthurcontino$ ls
+arthurs-MacBook-Pro:home arthurcontino$ cd ..
+arthurs-MacBook-Pro:springfield arthurcontino$ ls
+band-room	home		market		power-plant
+arthurs-MacBook-Pro:springfield arthurcontino$ mkdir couch 
+arthurs-MacBook-Pro:springfield arthurcontino$ mv market couch
+arthurs-MacBook-Pro:springfield arthurcontino$ mv power-plant couch
+arthurs-MacBook-Pro:springfield arthurcontino$ mv band-room couch
+arthurs-MacBook-Pro:springfield arthurcontino$ ls
+couch	home
+arthurs-MacBook-Pro:springfield arthurcontino$ mc couch home 
+-bash: mc: command not found
+arthurs-MacBook-Pro:springfield arthurcontino$ mv couch home
+arthurs-MacBook-Pro:springfield arthurcontino$ ls
+home
+arthurs-MacBook-Pro:springfield arthurcontino$ cd ..
+arthurs-MacBook-Pro:~ arthurcontino$ ls
+Applications		Music			ga
+Desktop			Pictures		homework
+Documents		Public			hypatia-students
+Downloads		README.md		labs
+Library			artycontino.github.io-	mywebsite
+Movies			documentds		springfield
+arthurs-MacBook-Pro:~ arthurcontino$ cd springfield
+arthurs-MacBook-Pro:springfield arthurcontino$ ls
+home
+arthurs-MacBook-Pro:springfield arthurcontino$ home ls
+-bash: home: command not found
+arthurs-MacBook-Pro:springfield arthurcontino$ ls
+home
+arthurs-MacBook-Pro:springfield arthurcontino$ cd home 
+arthurs-MacBook-Pro:home arthurcontino$ ls
+couch
+arthurs-MacBook-Pro:home arthurcontino$ cd couch
+arthurs-MacBook-Pro:couch arthurcontino$ ls
+band-room	market		power-plant
+arthurs-MacBook-Pro:couch arthurcontino$ cd band-room
+arthurs-MacBook-Pro:band-room arthurcontino$ ls
+lisa.txt
+arthurs-MacBook-Pro:band-room arthurcontino$ cd ,,
+-bash: cd: ,,: No such file or directory
+arthurs-MacBook-Pro:band-room arthurcontino$ ls
+lisa.txt
+arthurs-MacBook-Pro:band-room arthurcontino$ cd..
+-bash: cd..: command not found
+arthurs-MacBook-Pro:band-room arthurcontino$ cd ..
+arthurs-MacBook-Pro:couch arthurcontino$ ls
+band-room	market		power-plant
+arthurs-MacBook-Pro:couch arthurcontino$ cd market
+arthurs-MacBook-Pro:market arthurcontino$ ls
+maggie.txt	marge.txt
+arthurs-MacBook-Pro:market arthurcontino$ cd ..
+arthurs-MacBook-Pro:couch arthurcontino$ ls
+band-room	market		power-plant
+arthurs-MacBook-Pro:couch arthurcontino$ cd power-plant 
+arthurs-MacBook-Pro:power-plant arthurcontino$ ls
+homer.txt
+arthurs-MacBook-Pro:power-plant arthurcontino$ done and checked !!!
